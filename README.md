@@ -29,4 +29,4 @@ For each uploader, you will need to include the `uploader.ui` partial:
 
 #### Options
 ***name*** will be the name of the hidden input which stores all uploaded file names as a JSON array.
-***name*** is the URL to the route
+***upload_url*** is the route URL to the route that will call `UploadController@store`
