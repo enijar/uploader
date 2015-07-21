@@ -7,7 +7,7 @@ Front end image cropping and editing with Cropper JS and Plupload for Laravel.
 
 ```php
     @include('partials.uploader.ui', [
-        'name' => 'cropper_2',
+        'name' => 'cropper',
         'width' => 500,
         'height' => 500,
         'upload_url' => url('upload'),
@@ -23,3 +23,7 @@ Front end image cropping and editing with Cropper JS and Plupload for Laravel.
         'onError' => '',
     ])
 ```
+
+**Options**
+
+*name* will be the name of the hidden input which stores all uploaded file names as a JSON array.
