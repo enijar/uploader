@@ -31,7 +31,6 @@ For each uploader, you will need to include the `uploader.ui` partial:
 This will point to the Uploader controller to handle uploading files:
 
 ```php
-    Route::get('/', 'UploadController@index');
     Route::post('upload', 'UploadController@store');
 ```
 
