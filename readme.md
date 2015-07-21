@@ -5,7 +5,7 @@ Front end image cropping and editing with Cropper JS and Plupload for Laravel.
 
 > This is still in testing. This will be published to a package once testing is complete.
 
-```
+```php
     @include('partials.uploader.ui', [
         'name' => 'cropper_2',
         'width' => 500,
