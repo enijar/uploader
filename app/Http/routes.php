@@ -1,4 +1,4 @@
 <?php
 
-Route::get('/', 'UploadController@index');
-Route::post('upload', 'UploadController@store');
+Route::get('/', 'UploaderController@index');
+Route::post('upload', 'UploaderController@store');

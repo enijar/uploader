@@ -9,13 +9,8 @@ use App\Http\Controllers\Controller;
 use stdClass;
 use Validator;
 
-class UploadController extends Controller
+class UploaderController extends Controller
 {
-    public function index()
-    {
-        return view('pages.uploader.index');
-    }
-
     /**
      * Uploads any valid image with a random file name to the uploads
      * directory. If the image is invalid then an "invalid_file"
