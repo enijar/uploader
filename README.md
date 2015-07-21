@@ -26,4 +26,4 @@ Front end image cropping and editing with Cropper JS and Plupload for Laravel.
 
 **Options**
 
-*name* will be the name of the hidden input which stores all uploaded file names as a JSON array.
+***name*** will be the name of the hidden input which stores all uploaded file names as a JSON array.
