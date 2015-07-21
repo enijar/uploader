@@ -36,12 +36,21 @@ This will point to the Uploader controller to handle uploading files:
 
 #### Options
 ***name*** will be the name of the hidden input which stores all uploaded file names as a JSON array.
+
 ***upload_url*** is the route URL to the route that will call `UploaderController@store`
+
 ***flash_swf_url*** Path to the fallback Flash file
+
 ***silverlight_xap_url*** Path to the fallback Silverlight file
+
 ***onPostInit*** Javascript function to call after the uploader is instantiated
+
 ***onFileAdded*** Javascript function to call after a file is added
+
 ***onBeforeUpload*** Javascript function to call before a file is uploaded
+
 ***onFileUploaded*** Javascript function to call after a file is uploaded
+
 ***onUploadProgress*** Javascript function to call when a file is being uploaded
+
 ***onError*** Javascript function to call when an error is encountered
