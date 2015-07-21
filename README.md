@@ -36,4 +36,4 @@ This will point to the Uploader controller to handle uploading files:
 
 #### Options
 ***name*** will be the name of the hidden input which stores all uploaded file names as a JSON array.
-***upload_url*** is the route URL to the route that will call `UploadController@store`
+***upload_url*** is the route URL to the route that will call `UploaderController@store`
